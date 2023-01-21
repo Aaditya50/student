@@ -23,15 +23,6 @@ public class StudentServiceImpl implements StudentService {
 
 	}
 
-
-	@Override
-	public Student getData(int id) {
-		// TODO Auto-generated method stub
-		
-		return studentRepository.getById(id);
-	}
-
-
 	@Override
 	public List<Student> getAll() {
 		// TODO Auto-generated method stub
